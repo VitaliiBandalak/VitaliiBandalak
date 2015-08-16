@@ -1,0 +1,8 @@
+body article p:nth-of-type(1)
+{
+    font-size: large;
+}
+article p:nth-child(4)
+{
+    color: #999;
+}

@@ -1,0 +1,55 @@
+input[type="checkbox"] {
+    display: none;
+}
+#red:checked ~ span[class="red"]{
+    display: none;
+}
+#blue:checked ~ span[class="blue"]{
+    display: none;
+}
+#green:checked ~ span[class="green"]{
+    display: none;
+}
+
+.red {
+    color: white;
+    font-size: 14px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px 10px;
+}
+.blue {
+    color: white;
+    font-size: 14px;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 10px 10px;
+
+
+}
+.green {
+    color: white;
+    font-size: 14px;
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px 10px;
+}
+input + label {
+    color: red;
+    font-size: 12px;
+    text-decoration: underline;
+    padding: 9px;
+}
+input + label + label {
+    color: green;
+    font-size: 12px;
+    text-decoration: underline;
+    padding: 9px;
+}
+
+input + label + label + label {
+    color: blue;
+    font-size: 12px;
+    text-decoration: underline;
+    padding: 9px;
+}
