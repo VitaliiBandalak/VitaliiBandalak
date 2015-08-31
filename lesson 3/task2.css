@@ -1,6 +1,6 @@
 body article p:nth-of-type(1)
 {
-    font-size: large;
+    font-size: 250%;
 }
 article p:nth-child(4)
 {

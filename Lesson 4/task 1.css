@@ -1,0 +1,40 @@
+
+.color {
+    background-color: #a65dff;
+    box-shadow: 0 0 3px 3px #cccccc;
+    width: 100%;
+
+}
+.menu {
+    font-family: Impact;
+    width: 900px;
+    margin: auto;
+    padding: 0 35px;
+
+
+
+}
+.menu li {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 20px;
+
+
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+
+}
+
+a:link {
+    color: white;
+}
+
+li a:hover {
+    background: lightgrey;
+    padding: 5px 0;
+    color: grey;
+
+}

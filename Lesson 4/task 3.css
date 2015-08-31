@@ -1,0 +1,24 @@
+
+.pager li {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    font-size: 12px;
+    border-radius: 4px;
+}
+li.BordNon {
+    text-decoration: none;
+    border: none;
+}
+.pager li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 6px;
+    color: #a65dff;
+    border-radius: 4px;
+}
+
+li:hover:not(.BordNon) a {
+    background: #a65dff;;
+    color: white;
+
+}

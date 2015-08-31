@@ -40,6 +40,7 @@ input + label {
     text-decoration: underline;
     padding: 9px;
 }
+
 input + label + label {
     color: green;
     font-size: 12px;
@@ -52,4 +53,8 @@ input + label + label + label {
     font-size: 12px;
     text-decoration: underline;
     padding: 9px;
+}
+
+input:checked{
+    color: lightpink;
 }
