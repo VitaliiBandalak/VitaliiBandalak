@@ -9,7 +9,7 @@
 }    
  
  @font-face {
-     font-family: Futuran book Bold;
+     font-family: Futuran book BT;
     src: url(../font/Futuran%20book%20BT.ttf);
  }    
     
@@ -94,7 +94,7 @@ li .active {
     margin: 0 auto;
     color: white;
     text-align: center;
-    font-family: Futura Md BT;
+    font-family: Futura Md Bold;
 }
 
 .content span {
@@ -107,7 +107,7 @@ li .active {
 .content p {
     font-size: 48px;
     text-transform: uppercase;
-    font-family: Futura Md BT;
+    font-family: Futura Md Bold;
     font-weight: bold;
 }
 
