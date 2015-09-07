@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin-left: 200px;
+}
+p {
+    color: rgba(85,85,85,0.2);
+    text-shadow: 0 0 5px #555;
+    font-family: Arial;
+}
+
+.sight01 {
+    font-size: 106px;
+    letter-spacing: 92px;
+    margin: -20px 0;
+}
+
+.sight02 {
+    font-size: 90px;
+    letter-spacing: 32px;
+    margin-top: 72px;
+    margin-left: -2px;
+    margin-bottom: -25px;
+}
+
+.sight03 {
+    font-size: 76px;
+    letter-spacing: 10px;
+    margin-top: 78px;
+    margin-left: -2px;
+    margin-bottom: -26px;
+}
+
+.sight04 {
+    font-size: 74px;
+    letter-spacing: 3px;
+    margin-left: -2px;
+    margin-bottom: -26px;
+}
+
+.sight05 {
+    font-size: 67px;
+    letter-spacing: 6px;
+    margin-left: -2px;
+    margin-bottom: -26px;
+}
+
+.sight06 {
+    font-size: 55px;
+    letter-spacing: 6px;
+    margin-left: -5px;
+    margin-top: 62px;
+    margin-bottom: -16px;
+}
+
+.sight07 {
+    font-size: 45px;
+    letter-spacing: 12px;
+    margin-left: -5px;
+    margin-top: 54px;
+    margin-bottom: -16px;
+}
+
+.sight08 {
+    font-size: 34px;
+    letter-spacing: 12px;
+    margin-left: -2px;
+    margin-top: 48px;
+    margin-bottom: -16px;
+}
+
+.sight09 {
+    font-size: 24px;
+    letter-spacing: 18px;
+    margin-left: -2px;
+    margin-top: 48px;
+    margin-bottom: -16px;
+}
+
+.sight10 {
+    font-size: 14px;
+    letter-spacing: 19px;
+    margin-left: -2px;
+    margin-top: 47px;
+    margin-bottom: -16px;
+}
+
+.uline {
+    border-top: 2px solid #e9d5d6;
+    width: 381px;
+    margin-left: -4px;
+    margin-top: 30px;
+}
+
+.sight15 {
+    font-size: 12px;
+    letter-spacing: 20px;
+    margin-left: -2px;
+    margin-top: 18px;
+    margin-bottom: -16px;
+}
+
+.sight20 {
+    font-size: 9px;
+    letter-spacing: 22px;
+    margin-left: -2px;
+    margin-top: 45px;
+    margin-bottom: -16px;
+}

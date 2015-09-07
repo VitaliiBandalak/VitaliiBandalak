@@ -1,0 +1,50 @@
+.main_class {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.field {
+    width: 488px;
+    height: 26px;
+    margin-left: 4px;
+    margin-top: 5px;
+    box-shadow: 0 0 1px -1px;
+    outline: none;
+}
+
+span {
+    font-family: Arial;
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+.underline_word {
+    border-bottom: dotted black;
+    border-width: thin;
+}
+
+div.main {
+    width: 616px;
+    height: 54px;
+    margin: 0 auto;
+    position: relative;
+    background: linear-gradient(to top, #f9ab10, #ffcc66);
+}
+
+.bottom {
+    width: 69px;
+    height: 26px;
+    padding-left: 6px;
+    font-weight: bold;
+    box-shadow: 0 0 1px 0;
+}
+
+div.main::after {
+    position: absolute;
+    border: 28px solid white;
+    border-left: 15px solid transparent;
+    background: linear-gradient(to top, #f9ab10, #ffcc66);
+    content: '';
+    top: 0;
+    left: 578px;
+}

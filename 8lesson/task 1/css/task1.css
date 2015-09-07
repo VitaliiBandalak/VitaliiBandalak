@@ -1,0 +1,51 @@
+.main_class {
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.field {
+    width: 456px;
+    height: 26px;
+    margin-left: 4px;
+    margin-top: 5px;
+    box-shadow: 0 0 1px -1px;
+    outline: none;
+
+}
+
+.checkbox,label {
+    vertical-align:middle;
+    margin-top: 5px;
+}
+
+label {
+    margin-left: -5px;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+
+div.main {
+    width: 543px;
+    height: 54px;
+    margin: 0 auto;
+    position: relative;
+    background: #ffcc66;
+}
+
+.bottom {
+    width: 69px;
+    height: 26px;
+    padding-left: 6px;
+    font-weight: bold;
+}
+
+div.main::after {
+    position: absolute;
+    border: 27px solid transparent;
+    border-left: 15px solid #ffcc66;
+    content: '';
+    top: 0;
+    left: 543px;
+}
