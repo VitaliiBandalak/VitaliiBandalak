@@ -1,0 +1,138 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h2, p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 55px 0 20px 0;
+    color: #2e3a50;
+}
+p {
+    margin-bottom: 75px;
+    color: #a4a5a5;
+}
+
+.blocks_wrapper {
+    max-width: 1170px;
+    max-height: 550px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+
+.pictures {
+    width: 360px;
+    height: 260px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background: rgba(57, 174, 247, 1);
+    border-radius: 3px 3px;
+}
+
+.pictures img {
+    transition: 0.8s;
+    border-radius: 3px 3px;
+}
+
+.pictures:hover img {
+    opacity: 0.4;
+}
+
+.bottoms {
+    position: relative;
+    bottom: 108px;
+    right: -3px;
+    width: 111px;
+    height: 11px;
+    cursor: pointer;
+    display: inline-block;
+    margin: -100px 27px 21px 37px;
+
+}
+
+.zoom {
+    border: 1px solid white;
+    padding: 12px;
+    margin-right: 8px;
+    display: none;
+    margin-top:-1px;
+}
+
+.link {
+    border: 1px solid white;
+    padding: 13px 12px 12px 12px;
+    display: none;
+}
+
+.pictures:hover .zoom, .pictures:hover .link {
+    display: inline-block;
+}
+
+.link:hover, .zoom:hover {
+    background: rgba(220, 238, 238, 0.9);
+}
+
+.modalPicture > div {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.modalPicture {
+    position: fixed;
+    top:0;
+    right:0;
+    bottom: 0;
+    left: -30px;
+    background: rgba(800, 800, 800, 0.9);
+    z-index: 10;
+    opacity:0;
+    pointer-events: none;
+}
+
+.modalPicture img {
+    border: 3px solid #999999;
+    border-radius: 4px ;
+}
+
+.modalPicture > div {
+    margin: 214px auto;
+    position: relative;
+}
+
+.modalPicture:target {
+    opacity:1;
+    pointer-events: auto;
+    transition: .88s;
+}
+
+
+.close {
+    background: #25a6f7;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: -13px;
+    right: 15px;
+    padding: 3px 10px 4px 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+.close:hover {
+    background: #f74c26;
+    transition: .5s;
+}
