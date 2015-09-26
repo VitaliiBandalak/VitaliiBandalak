@@ -67,7 +67,7 @@ body {
 .menu ul li {
     display: inline-block;
     padding: 7px 17px 8px 20px;
-    margin-right: 11px;
+    margin-right: 12px;
     position: relative;
     font-size: 14px;
     font-family: Oxygen, sans-serif;
@@ -93,7 +93,6 @@ ul > li:hover>a {
     font-family: Oxygen, sans-serif;
     font-weight: 600;
     font-size: 14px;
-    width: 85px;
     height: 100%;
     margin: -3px 0 0 0;
     background: #ffc552;
@@ -118,7 +117,6 @@ ul > li:hover>a {
 
 .sub-menu {
     width: 153px;
-    height: 166px;
     background: white;
     position: absolute;
     padding-left: 11px;
@@ -284,10 +282,13 @@ hr {
 .head_button {
     background: #ffbe47;
     width: 167px;
-    height: 43px;
+    min-height: 43px;
     margin-left: 246px;
     margin-top: -6px;
     border-radius: 4px;
+}
+
+.button_text {
     position: relative;
 }
 
@@ -319,7 +320,7 @@ hr {
 .head_button .fa {
     position: absolute;
     color: #fff;
-    top: -35px;
+    top: 0;
     left: 135px;
     font-size: 30px;
     font-weight: bold;
@@ -441,6 +442,12 @@ hr {
     opacity: 0;
 }
 
+.icon_block1:hover,
+.icon_block2:hover,
+.icon_block3:hover {
+    box-shadow: 0 0 0 7px rgba(0, 0, 0, 0.4);
+}
+
 .field_content {
     font-size: 12px;
     max-width: 281px;
@@ -456,7 +463,7 @@ hr {
 .decoration_text_right {
     background: #f0f0f0 url("../img/decoration1.png") bottom left repeat-x;
     width: 301px;
-    height: 100%;
+    min-height: 53px;
     margin-top: -13px;
 }
 
@@ -680,7 +687,7 @@ li {
 .middle_list li {
     text-decoration: none;
     list-style: none;
-    margin: 0 55px 0 -18px;
+    margin: 0 53px 0 -18px;
     font-size: 12px;
     color: #666666;
     font-family: "Arial Regular", sans-serif;
